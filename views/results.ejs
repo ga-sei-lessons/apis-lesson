@@ -1,0 +1,11 @@
+<h1><%= results.length %> results for <%= search %>:</h1>
+
+<% results.forEach(result => { %>
+    <div>
+        <h2><%= result.name %></h2>
+
+        <p>is <%= result.height %> miles tall</p>
+
+        <!-- more info about homeworld -->
+    </div>
+<% }) %>
